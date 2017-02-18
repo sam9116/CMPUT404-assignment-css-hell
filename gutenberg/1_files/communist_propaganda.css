@@ -1,0 +1,214 @@
+@font-face {
+         font-family: Bolshevik;
+         src: url('Bolshevik.otf') format('opentype');
+         font-weight: normal;
+         font-style: normal;
+}
+
+body { background-color: #dac15d; margin-left: 10%;
+         margin-right: 10%;
+         font-family:Bolshevik;
+        
+
+}
+
+
+/* http://stackoverflow.com/questions/11737168/how-to-embed-fonts-in-css  http://www.dafont.com/profile.php?user=16024 */
+/* https://en.wikipedia.org/wiki/File:Coat_of_arms_of_the_Soviet_Union.svg#/media/File:Coat_of_arms_of_the_Soviet_Union.svg */
+/* http://stackoverflow.com/questions/17322161/css-background-image-before-and-after-h1-tag */
+
+
+p { 
+    margin:1em;
+    font-weight:lighter;
+    line-height: 200%;
+    text-align: center;
+         }
+h1:before{
+    content:url('Coat_of_arms_of_the_Soviet_Union.png');
+    display: block;
+    margin-top:1em;
+    margin-bottom:1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+
+      text-align: center; /* all headings centered */
+         clear: both;
+         color:#d81e11;
+
+
+}
+img{
+    border:solid;
+    border-width:5px;
+    border-color:#d81e11;
+}
+
+h4{
+    text-align: center; /* all headings centered */
+         clear: both;
+         font-weight:lighter;
+         font-style:italic;
+             margin-left: auto;
+    margin-right: auto;
+         width:50%;
+}
+    h2,h3,h5,h6 {
+         text-align: center; /* all headings centered */
+         clear: both;
+         }
+    hr { width: 50%;
+	 margin-top: 2em;
+	 margin-bottom: 2em;
+         margin-left: auto;
+         margin-right: auto;
+         clear: both;
+          border-color:#d81e11;
+       }
+
+    table {margin-left: auto; margin-right: auto; border-collapse:collapse;}
+    td{padding: 1em;}
+    th{ text-align:left; padding: 1em; background-color: #d81e11;}
+    
+
+
+    .linenum  {position: absolute; top: auto; left: 4%;} /* poetry number */
+    .blockquot{margin-left: 5%; margin-right: 10%;}
+    .pagenum  {position: absolute; left: 92%; font-size: smaller; visibility: hidden; text-align: right; } /* page numbers */
+
+    .bb       {border-bottom: solid 2px;}
+    .bl       {border-left: solid 2px;}
+    .bt       {border-top: solid 2px;}
+    .br       {border-right: solid 2px;}
+    .bbox     {border: solid 2px;}
+
+    .center   {text-align: center;}
+    .smcap    {font-variant: small-caps;}
+    .u        {text-decoration: underline;}
+
+    .caption  {font-weight: bold;}
+
+    .figcenter   {margin: auto; text-align: center;}
+
+    .figleft     {float: left; clear: left; margin-left: 0; margin-bottom: 1em; margin-top:
+                 1em; margin-right: 1em; padding: 0; text-align: center;}
+
+    .figright    {float: right; clear: right; margin-left: 1em; margin-bottom: 1em;
+                 margin-top: 1em; margin-right: 0; padding: 0; text-align: center;}
+
+    .footnotes        {border: dashed 1px;}
+    .footnote         {margin-left: 10%; margin-right: 10%; font-size: 0.9em;}
+    .footnote .label  {position: absolute; right: 84%; text-align: right;}
+    .fnanchor         {vertical-align: super; font-size: .8em; text-decoration: none;}
+
+    .poem             {margin-left:10%; margin-right:10%; text-align: left;}
+    .poem br          {display: none;}
+    .poem .stanza     {margin: 1em 0em 1em 0em;}
+    .poem span.i0     {display: block; margin-left: 0em; padding-left: 3em; text-indent: -3em;}
+    .poem span.i2     {display: block; margin-left: 2em; padding-left: 3em; text-indent: -3em;}
+    .poem span.i4     {display: block; margin-left: 4em; padding-left: 3em; text-indent: -3em;}
+    hr.full { width: 100%; }
+    pre:before{      text-align: center; /* all headings centered */
+         clear: both;
+         color:#d81e11;
+        font-size:large;
+        content:'MESSAGE FROM OUR CAPITALIST FRIENDS';
+        font-family:Bolshevik;
+        display:block;
+        margin-left:auto;margin-right:auto;
+
+    }
+    pre      {font-size: large; text-align:center;background-size:contain; background-repeat:repeat-x; margin-left:auto;margin-right:auto;}
+    .break-before           {page-break-before:always; }
+div.chapter             {page-break-before:always; }
+
+/* TEXT ALIGNMENT AND MARGINS */
+.ac                     { text-align:center;}
+.ar                     { text-align:right;}
+.mc                     { margin:0 auto; max-width:99%; }
+.p2                     { margin-top:2em; }
+
+/* BLOCK QUOTES */
+.bq                     { margin-left:3em; margin-right:3em; font-size:smaller; }
+
+/* FONTS */
+.sc                     { font-variant:small-caps; }
+.xx-smaller             { font-size:58%; }
+.x-smaller              { font-size:69%; }
+.smaller                { font-size:83%; }
+
+/* HORIZONTAL LINES */
+hr.chap                 { margin-top:5em; margin-bottom:5em; margin-left:20%;
+                          margin-right:20%; width:60%; }
+/* Width=30% */
+hr.sect                 { margin-top:2em; margin-bottom:2em; margin-left:35%;
+                          margin-right:35%; width:30%; }
+
+table.sp2               { margin-bottom:2em; }
+.toctable               { margin-left:auto; margin-right:auto; width:60%; border:0;
+                          border-spacing:0px; padding:2px; }
+td.c1                   { text-align:left; vertical-align:top; padding-right:0em;
+                          padding-left:1.5em; text-indent:-1.5em; }
+td.c2                   { text-align:right; vertical-align:bottom; padding-right:1em;
+                          padding-left:1em; }
+/* IMAGES */
+img                     { max-width:100%; height:auto; }
+.figcenter              { clear:both; margin:auto; text-align:center; padding-top:1em;
+                          max-width:100%; }
+img.drop-cap            { float:left; margin:0 0 0 0; visibility:hidden; }
+
+
+/* VERSES */
+.poetry                 { margin-left:10%; margin-right:10%; text-align:left;
+                          max-width:30em; display:inline-block; }
+.poetry .stanza         { margin:1em 0em 1em 0em; }
+.poetry .verse          { padding-left:3em; text-indent:-3em; font-size:small; line-height:150%; }
+.poetry-container       { text-align:center; }
+.poetry .indent1        { text-indent:1em; }
+.poetry .indent-1       { text-indent:-1em; }
+.poetry .indent-2       { text-indent:-2em; }
+
+/* VOLUME DESCRIPTION */
+.vlouter                { width: 100%;border-top: 1.4px black solid;
+                          border-bottom:1.4px black solid; padding-top:0.25em;
+                          padding-bottom:0.25em; }
+.volumeline             { width:100%; border-top:1.4px black solid;
+                          border-bottom:1.4px black solid; padding-top:0.25em;
+                          padding-bottom:0.25em; }
+.volumeleft             { float:left; width:33%; text-align:left; }
+.volumeright            { float:right; width:33%; text-align:right; }
+
+/* TRANSCRIBER'S NOTES */
+.covernote              { visibility:hidden; display:none; }
+.transnote              { background-color:#E6E6FA; color:black; padding-bottom:1em;
+                          padding-top:.3em; margin-top:3em; margin-left:5%;
+                          margin-right:5%; padding-left:2em; padding-right:1em;
+                          font-family:sans-serif, serif; page-break-inside:avoid; }
+
+/* MEDIA-SPECIFIC FORMATTING */
+@media screen,print {
+  img.drop-cap            { float:left; margin:0 0 0 0; }
+  p.drop-cap:first-letter {
+                           }
+  .w30                    { width:30%; }
+  .w40                    { width:40%; }
+  .w50                    { width:50%; }
+  .w100                   { width:100%; }
+}
+
+@media handheld {
+  body                    { margin:0; }
+  img.drop-cap            { display:none }
+  p.drop-cap:first-letter {  }
+  table.w50               { width:99%; }
+  table.w100              { width:99%; }
+  .toctable               { width: auto; }
+  .volumeleft             { float: left; width: 33%; text-align: left; }
+  .volumeright            { float: right; width: 33%; text-align: right; }
+  .pagenum                { display:none; }
+  .covernote              { visibility:visible; display:block; }
+  .transnote              { page-break-before:always; margin-left:2%; margin-right:2%;
+                            margin-top:1em; margin-bottom:1em; padding:.5em; }
+}
