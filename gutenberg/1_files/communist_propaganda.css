@@ -4,6 +4,9 @@
          font-weight: normal;
          font-style: normal;
 }
+/* written by Suresh Kumar(http://stackoverflow.com/users/799622/suresh-kumar) http://stackoverflow.com/questions/11737168/how-to-embed-fonts-in-css */
+
+
 
 body { background-color: #dac15d; margin-left: 10%;
          margin-right: 10%;
@@ -13,17 +16,13 @@ body { background-color: #dac15d; margin-left: 10%;
 }
 
 
-/* http://stackoverflow.com/questions/11737168/how-to-embed-fonts-in-css  http://www.dafont.com/profile.php?user=16024 */
-/* https://en.wikipedia.org/wiki/File:Coat_of_arms_of_the_Soviet_Union.svg#/media/File:Coat_of_arms_of_the_Soviet_Union.svg */
-/* http://stackoverflow.com/questions/17322161/css-background-image-before-and-after-h1-tag */
-
-
 p { 
     margin:1em;
     font-weight:lighter;
     line-height: 200%;
     text-align: center;
          }
+/*written by novocaine (http://stackoverflow.com/users/871150/novocaine) on  http://stackoverflow.com/questions/17322161/css-background-image-before-and-after-h1-tag  */
 h1:before{
     content:url('Coat_of_arms_of_the_Soviet_Union.png');
     display: block;

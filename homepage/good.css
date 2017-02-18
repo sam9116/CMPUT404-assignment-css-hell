@@ -7,26 +7,29 @@
 h1{
     margin-left:auto;
     margin-right:auto;
+    padding-top:80px;
     text-align:center;
     font-size:3em;
     font-weight:bold;
-    padding-right:800px;
 
 
 }
 image.lensflare{
     margin-right:15em;
     z-index:4;
-    visibility:hidden;
+    opacity:0.0;
+    display:none;
 }
 image.betatag{
     margin-left:70em;
     margin-top:-8em;
-    visibility:hidden;
+
+    display:none;
+    opacity:0.0;
 }
 
 header.failbanner{
-    
+    /*written by A.M.K(http://stackoverflow.com/users/900747/a-m-k) on http://stackoverflow.com/questions/11679567/using-css-for-fade-in-effect-on-page-load*/
     background: blue; /* For browsers that do not support gradients */
     background: -webkit-radial-gradient(cadetblue, lightblue, aqua); /* Safari 5.1 to 6.0 */
     background: -o-radial-gradient(cadetblue, lightblue, aqua); /* For Opera 11.6 to 12.0 */
