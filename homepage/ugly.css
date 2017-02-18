@@ -1,0 +1,101 @@
+﻿body
+{
+    font-family:'Comic Sans MS';
+  
+}
+
+h1{
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    font-size:3em;
+    font-weight:bold;
+    padding-right:800px;
+   background: -webkit-linear-gradient(90deg, #ffd800 10%, #b200ff 30%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+image.lensflare{
+    margin-right:15em;
+    z-index:4;
+}
+image.betatag{
+    margin-left:70em;
+    margin-top:-8em;
+}
+
+header.failbanner{
+    
+    background: blue; /* For browsers that do not support gradients */
+    background: -webkit-radial-gradient(cadetblue, lightblue, aqua); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(cadetblue, lightblue, aqua); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(cadetblue, lightblue, aqua); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(cadetblue, lightblue, aqua); /* Standard syntax */
+    height:15em;
+
+}
+ul {
+    list-style-type: none;
+    margin-left:35%;
+    padding: 0;
+    overflow: hidden;
+   
+    
+}
+
+li {
+    float: left;
+}
+
+li a {
+   
+     background-color: #ffd800;
+    background: -webkit-linear-gradient(brown,  #ffd800); /* Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(brown,  #ffd800); /* For Opera 11.6 to 12.0 */
+    background: -moz-linear-gradient(brown,  #ffd800); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(brown,  #ffd800); /* Standard syntax */
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border:solid;
+    border-color:black;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+img.ugly{
+    width:15em;
+}
+
+* {
+    box-sizing: border-box;
+}
+.header {
+    border: 1px solid red;
+    padding: 15px;
+}
+.base{
+    margin:10px;
+    vertical-align:central;
+}
+.menu {
+width: 25%;
+float: left;
+padding: 15px;
+
+}
+.main {
+width: 75%;
+float: left;
+padding:15px;
+height:auto;
+background-color:deeppink;
+}
+.abouttext{
+    font-size:30px;
+}
