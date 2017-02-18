@@ -22,6 +22,7 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 CSS code from Stackoverflow is licensed under Creative Commons CC-BY-SA 3.0
+authors are credited in the css files
 Font is licensed under SIL Open Font License
 
 
